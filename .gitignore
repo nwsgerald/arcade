@@ -1,0 +1,21 @@
+# Private spec — repo is public, the spec stays local
+ARCADE_SITE_SPEC.md
+
+# Local Claude Code settings (personal permission allowlists)
+.claude/settings.local.json
+
+# Secrets — GITHUB_TOKEN for scan.mjs must never be committed
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor state
+.vscode/
+.idea/
+
+# Node — site has zero deps, but anything installed while debugging stays out
+node_modules/
+*.log
