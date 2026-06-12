@@ -1,0 +1,45 @@
+{
+  "$schema_note": "Schema + field ownership defined in ARCADE_SITE_SPEC.md — scan.mjs owns discovery fields, humans own presentation fields.",
+  "owner": "nwsgerald",
+  "exclude": [],
+  "games": [
+    {
+      "id": "brawlerz",
+      "repo": "nwsgerald/brawlerz",
+      "service": "brawlerz",
+      "url": "https://brawlerz.onrender.com",
+      "firstSeen": "2026-06-12",
+      "lastSeen": "2026-06-12",
+      "archived": false,
+      "title": "Brawlerz",
+      "blurb": "Top-down arena brawler — last one standing wins.",
+      "players": "2–4 players",
+      "controls": "Keyboard — arrows + Z",
+      "setup": "One laptop each",
+      "accent": "#ff4f7b",
+      "cover": null,
+      "urlOverride": null,
+      "hidden": false,
+      "order": 10
+    },
+    {
+      "id": "marblez",
+      "repo": "nwsgerald/marblez",
+      "service": "marblez",
+      "url": "https://marblez.onrender.com",
+      "firstSeen": "2026-06-12",
+      "lastSeen": "2026-06-12",
+      "archived": false,
+      "title": "Marblez",
+      "blurb": "",
+      "players": "",
+      "controls": "",
+      "setup": "",
+      "accent": "#4fd1ff",
+      "cover": null,
+      "urlOverride": null,
+      "hidden": false,
+      "order": 20
+    }
+  ]
+}
