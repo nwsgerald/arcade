@@ -98,9 +98,9 @@ function cover(game) {
 
 function renderStats(allGames, visibleCount) {
   const stats = document.getElementById('stats');
-  const lastScanned = allGames.map((g) => g.lastSeen).sort().at(-1);
+  const lastUpdated = allGames.map((g) => g.lastSeen).sort().at(-1);
   const count = `${visibleCount} game${visibleCount === 1 ? '' : 's'}`;
-  stats.textContent = lastScanned ? `${count} · last scanned ${lastScanned} · ` : `${count} · `;
+  stats.textContent = lastUpdated ? `${count} · updated ${lastUpdated}` : count;
 }
 
 function gridMessage(text) {
